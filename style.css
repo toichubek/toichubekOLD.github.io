@@ -1,0 +1,353 @@
+/* 2E3532  FABC3C  250,188,60  FABC3C F5F3F5 00B295 0,178,149 */
+/* F3A712 121328 00AFEF 0C0C0C 29335C */
+.aF3A712 {
+  background-color: #f3a712;
+  padding: 20px;
+}
+.a121328 {
+  background-color: #121328;
+  padding: 20px;
+}
+.a00AFEF {
+  background-color: #00afef;
+  padding: 20px;
+}
+.a0C0C0C {
+  background-color: #0c0c0c;
+  padding: 20px;
+}
+.a29335C {
+  background-color: #29335c;
+  padding: 20px;
+}
+
+.a2E3532 {
+  background-color: #2e3532;
+  padding: 20px;
+}
+.aFABC3C {
+  background-color: #fabc3c;
+  padding: 20px;
+}
+.aFABC3C {
+  background-color: #fabc3c;
+  padding: 20px;
+}
+.aF5F3F5 {
+  background-color: #f5f3f5;
+  padding: 20px;
+}
+.a00B295 {
+  background-color: #00b295;
+  padding: 20px;
+}
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800|PT+Sans+Narrow:400,700&subset=cyrillic-ext");
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #0c0c0c;
+  background-color: #f5f3f5;
+}
+section {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "PT Sans", sans-serif;
+  margin-bottom: 1.5rem;
+}
+a {
+  color: #29335c;
+}
+a:hover {
+  color: #00b295 !important;
+}
+input.lang-form.nav-link:hover {
+  color: #00b295 !important;
+}
+nav {
+  position: relative;
+}
+#navbar {
+  z-index: 10000;
+}
+
+/* NAVBAR ROTATE */
+nav div a:hover img,
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.navbar-brand:hover img {
+  color: #fff;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+/* END NAVABR ROTEATE */
+
+/* CPLAPPSE NAVABR BUTTON COLOR */
+.custom-toggler.navbar-toggler {
+  border-color: #121328;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(250,188,60, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* NAV LINK COLOR */
+#navbarResponsive > ul > li > a.nav-link {
+  color: #121328;
+}
+#navbarResponsive > ul > li > a.nav-link:hover {
+  color: #00b295;
+}
+input.lang-form.nav-link {
+  color: #121328 !important;
+}
+
+/* .breadcrumb */
+.breadcrumb {
+  background-color: #121328;
+}
+.breadcrumb-item.active {
+  color: white;
+}
+.breadcrumb-item a {
+  color: white;
+}
+
+/* full  backgroun image  */
+.main-image {
+  background-image: url(img/600.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* navbar background before scroll */
+/* nav.bg {
+  background: rgba(85, 186, 122, 0.7);
+}
+/* navbar background after scroll */
+/* nav.bg-black {
+  background: rgba(0, 120, 0, 0.7) !important;
+} */
+nav.bg {
+  background: rgb(0, 0, 0, 0);
+}
+/* navbar background after scroll */
+nav.bg-black {
+  background: rgba(255, 255, 255, 0.9) !important;
+}
+
+/* navbar logo */
+img.logo {
+  max-height: 40px;
+}
+
+/* full page 100% */
+.fill {
+  min-height: 100%;
+  height: 100%;
+}
+
+/* product caad */
+.card {
+  border-width: 0;
+}
+img {
+  -webkit-filter: brightness(100%);
+}
+.card:hover > a > img {
+  -webkit-filter: brightness(70%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+  transform: scale(1.05);
+}
+
+/* search button back color */
+button.btn.btn-secondary {
+  background-color: #121328;
+}
+button.btn.btn-secondary:hover {
+  background-color: #121328;
+}
+
+/* footer */
+footer {
+  background-color: #121328 !important;
+}
+/* social &*/
+/* footer social icons */
+/* ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+} */
+
+/* footer social icons */
+
+.social li a:hover i,
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.social i {
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.social {
+  font-size: 25px;
+  list-style: none;
+}
+.social li {
+  padding-bottom: 1rem;
+}
+.fa {
+  font-size: 25px;
+  margin-right: 10px;
+  margin-left: 0px;
+}
+.fa.fa-instagram {
+  color: transparent;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background: -webkit-radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.fa-facebook {
+  color: #3b5998;
+}
+/* end social */
+
+/*
+ what we-do section styles
+ */
+
+.we-do-in {
+  background-color: #fff;
+  margin: 0;
+  padding: 2em 1em;
+}
+.we-do-text {
+  margin-top: 1rem;
+  line-height: 2;
+  font-size: 1.3rem;
+}
+
+.we-do-header {
+  padding-top: 2rem;
+}
+
+/* benefits */
+#benefit {
+  column-count: 2;
+  list-style: none;
+}
+
+#benefit > li {
+  padding: 12px 42px;
+}
+i {
+  color: #00b295;
+}
+.btn-outline-primary {
+  color: #00b295;
+  border-color: #00b295;
+}
+.btn-outline-primary:hover {
+  color: white !important;
+  background-color: #00b295;
+  border-color: #00b295;
+}
+@media (max-width: 991px) {
+  .navbar-nav .nav-link {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+  }
+  nav.bg {
+    background: #121328 !important;
+  }
+  li > a.nav-link {
+    color: white !important;
+  }
+  .dropdown-item {
+    color: white;
+  }
+  input.lang-form.nav-link {
+    color: white !important;
+  }
+  .dropdown-menu {
+    background-color: #121328;
+  }
+  a.dropdown-item:hover {
+    background-color: #121328;
+  }
+  #benefit {
+    column-count: 1;
+  }
+  .social {
+    font-size: 20px;
+    padding: 0 !important;
+    margin: auto !important;
+  }
+  .social i {
+    padding: 1rem;
+  }
+}
